@@ -38,7 +38,7 @@ public class ApiClient
     {
         _logger.Info("Request: " + request.Resource);
         var response = _restClient.Execute<T>(request);
-        
+
         _logger.Info("Response Status: " + response.ResponseStatus);
         _logger.Info("Response Body: " + response.Content);
 
