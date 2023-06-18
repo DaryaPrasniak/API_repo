@@ -21,10 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\TAF_TMS_C1onl\TAF_TMS_C1onl.csproj" />
   </ItemGroup>
 

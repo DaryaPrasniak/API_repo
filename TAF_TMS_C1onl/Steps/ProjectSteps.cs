@@ -19,4 +19,10 @@ public class ProjectSteps : BaseStep
     {
         
     }
+
+    public void CreateNewProject(string projectName)
+    {
+        AddProjectPage.ProjectNameInput().SendKeys(projectName);
+        AddProjectPage.AddNewProjectButton().Click();
+    }
 }
