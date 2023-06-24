@@ -8,7 +8,7 @@ using TAF_TMS_C1onl.Clients;
 using TAF_TMS_C1onl.Models;
 using TAF_TMS_C1onl.Utilites.Configuration;
 
-namespace TAF_TMS_C1onl.Services
+namespace TAF_TMS_C1onl.Services.API
 {
     public class CaseService : BaseService
     {
